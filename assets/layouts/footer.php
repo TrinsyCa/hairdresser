@@ -10,7 +10,7 @@
                     </a>
                 </li>
                 <li class="footer-menu">
-                    <b><a class="footer-link" onclick="randevu();"><span>Randevu</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M14.5 13.5v-7h-7m7 0l-8 8"/></svg></a></b>
+                    <b><a class="footer-link" href="https://www.kolayrandevu.com/isletme/seval-sirakaya-guzellik-ve-sac?website=1"><span>Randevu Al</span><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" d="M14.5 13.5v-7h-7m7 0l-8 8"/></svg></a></b>
                     <a class="footer-link" href="#hizmetler"><span>Hizmetler</span></a>
                     <a class="footer-link" href="#iletisim"><span>İletişim</span></a>
                 </li>
@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="footer-policy">
-            <a class="footer-link" onclick="window.location.href='/gizlilik-ve-kosullar'">Gizlilik ve Kullanım Koşulları</a>
+            <a class="footer-link" href="/gizlilik-ve-kosullar">Gizlilik ve Kullanım Koşulları</a>
         </div>
         <div class="footer-signature">
             <p class="signature">
@@ -36,8 +36,6 @@
         </div>
     </div>
 </footer>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/three/examples/js/loaders/GLTFLoader.js"></script>
-<script src="/assets/scripts/main.js"></script>
-<script src="/assets/scripts/faq.js"></script>
+<script src="/assets/scripts/main.js?v=<?= time() ?>" defer></script>
+<script src="/assets/scripts/faq.js?v=<?= time() ?>" defer></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" async></script>

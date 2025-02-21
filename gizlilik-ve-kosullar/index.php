@@ -5,8 +5,8 @@
 
     <!-- Meta Tags -->
 
-    <meta property="og:title" content="Gizlilik ve Kullanım Koşulları | Seval Sırakaya Güzellik Salonu ve Saç Salonu">
-    <meta name="twitter:title" content="Gizlilik ve Kullanım Koşulları | Seval Sırakaya Güzellik Salonu ve Saç Salonu">
+    <meta property="og:title" content="Gizlilik ve Kullanım Koşulları | Seval Sırakaya Güzellik ve Saç Salonu">
+    <meta name="twitter:title" content="Gizlilik ve Kullanım Koşulları | Seval Sırakaya Güzellik ve Saç Salonu">
     
     <meta property="og:url" content="<?php echo $DOMAIN; ?>gizlilik-ve-kosullar">
     <meta name="twitter:url" content="<?php echo $DOMAIN; ?>gizlilik-ve-kosullar">
@@ -17,11 +17,11 @@
 
     <!-- CSS -->
      
-    <link rel="stylesheet" href="/assets/css/policies.css">
+    <link rel="stylesheet" href="/assets/css/policies.css?v=<?= time() ?>">
 
     <!-- CSS -->
 
-    <title>Gizlilik ve Kullanım Koşulları | Seval Sırakaya Güzellik Salonu ve Saç Salonu</title>
+    <title>Gizlilik ve Kullanım Koşulları | Seval Sırakaya Güzellik ve Saç Salonu</title>
 </head>
 <body>
     <section class="notification" id="notification">
@@ -86,6 +86,5 @@
         </div>
     </section>
     <?php include_once BASE_PATH . "/assets/layouts/footer.php"; ?>
-    <script src="../scripts/main.js"></script>
 </body>
 </html>

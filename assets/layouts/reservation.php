@@ -1,6 +1,6 @@
 <div class="reservation">
     <div class="reservationHead">
-        <h1 data-text="Seval Sarıkaya Güzellik Salonu ve Saç Salonu" font="solid">Seval Sarıkaya Güzellik Salonu ve Saç Salonu</h1>
+        <h1 data-text="Seval Sarıkaya Güzellik ve Saç Salonu" font="solid">Seval Sarıkaya Güzellik ve Saç Salonu</h1>
     </div>
     <div class="reservationSystem">
         <div class="reservationSystemContainer">

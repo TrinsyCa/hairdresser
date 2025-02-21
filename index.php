@@ -5,8 +5,8 @@
 
     <!-- Meta Tags -->
 
-    <meta property="og:title" content="Seval Sırakaya Güzellik Salonu ve Saç Salonu">
-    <meta name="twitter:title" content="Seval Sırakaya Güzellik Salonu ve Saç Salonu">
+    <meta property="og:title" content="Seval Sırakaya Güzellik ve Saç Salonu">
+    <meta name="twitter:title" content="Seval Sırakaya Güzellik ve Saç Salonu">
     
     <meta property="og:url" content="<?php echo $DOMAIN; ?>">
     <meta name="twitter:url" content="<?php echo $DOMAIN; ?>">
@@ -17,14 +17,13 @@
 
     <!-- CSS -->
 
-    <link rel="stylesheet" href="/assets/css/extensions/focus.css">
-    <link rel="stylesheet" href="/assets/css/extensions/safety.css">
-    <link rel="stylesheet" href="/assets/css/extensions/faq.css">
-    <link rel="stylesheet" href="/assets/css/homepage.css">
+    <link rel="stylesheet" href="/assets/css/extensions/focus.css?v=<?= time() ?>">
+    <link rel="stylesheet" href="/assets/css/extensions/safety.css?v=<?= time() ?>">
+    <link rel="stylesheet" href="/assets/css/extensions/faq.css?v=<?= time() ?>">
 
     <!-- CSS -->
 
-    <title>Seval Sırakaya Güzellik Salonu ve Saç Salonu</title>
+    <title>Seval Sırakaya Güzellik ve Saç Salonu</title>
 </head>
 <body>
     <?php include_once "assets/layouts/navbar.php"; ?>
@@ -32,7 +31,7 @@
         <div class="header-details">
             <div class="header-title">
                 <h1 font="solid">Işıltınızı Keşfedin, <br> Güzelliğinize Değer Katın</h1>
-                <h2 font="solid" data-text="Seval Sırakaya Güzellik Salonu ve Saç Salonu">Seval Sırakaya Güzellik Salonu ve Saç Salonu</h2>
+                <h2 font="solid" data-text="Seval Sırakaya Güzellik ve Saç Salonu">Seval Sırakaya Güzellik ve Saç Salonu</h2>
             </div>
             <div class="header-buttons">
                 <a class="main-btn" href="#hizmetler"><span data-text="Hizmetlerimiz">Hizmetlerimiz</span></a>
@@ -40,20 +39,20 @@
         </div>
         <div class="header-media">
             <video id="welcome-video" class="responsive-video" autoplay loop muted>
-                <source data-desktop="/assets/stock/welcome-video/1080p.mp4" 
-                data-mobile="/assets/stock/welcome-video/480p.mp4" 
+                <source data-desktop="/assets/stock/welcome-video/1080p.mp4?v=<?= time() ?>" 
+                data-mobile="/assets/stock/welcome-video/480p.mp4?v=<?= time() ?>" 
                 type="video/mp4"
                 preload="auto">
             </video>
-            <img src="/assets/stock/welcome-video/cover.webp" alt="Seval Sırakaya Güzellik Salonu" loading="eager">
+            <img src="/assets/stock/welcome-video/cover.webp?v=<?= time() ?>" alt="Seval Sırakaya Güzellik Salonu" loading="eager">
         </div>
     </header>
     <div class="focus section-container">
         <div class="focus-container focus-anim-r">
-            <div class="focus-img blur-load" style="background-image: url('/assets/stock/covers/0220.webp');">
+            <div class="focus-img blur-load" style="background-image: url('/assets/stock/covers/0220.webp?v=<?= time() ?>');">
                 <video class="responsive-video" autoplay loop muted>
-                    <source data-desktop="/assets/stock/desktop/0220.mp4" 
-                    data-mobile="/assets/stock/mobile/0220.mp4" 
+                    <source data-desktop="/assets/stock/desktop/0220.mp4?v=<?= time() ?>" 
+                    data-mobile="/assets/stock/mobile/0220.mp4?v=<?= time() ?>" 
                     type="video/mp4"
                     preload="none">
                 </video>
@@ -93,7 +92,7 @@
                 </div>
             </div>
             <div class="focus-img blur-load">
-                <img src="/assets/files/1000049567.jpg" alt="Güzellik Salonu" loading="lazy">
+                <img src="/assets/files/1000049567.jpg?v=<?= time() ?>" alt="Güzellik Salonu" loading="lazy">
             </div>
         </div>
     </div>
@@ -111,13 +110,13 @@
         <div class="safety-img">
             <div class="safety-img-container blur-load">
                 <video class="responsive-video" autoplay muted loop>
-                    <source data-desktop="/assets/stock/desktop/0220(1).mp4" 
-                    data-mobile="/assets/stock/mobile/0220(1).mp4" 
+                    <source data-desktop="/assets/stock/desktop/0220(1).mp4?v=<?= time() ?>" 
+                    data-mobile="/assets/stock/mobile/0220(1).mp4?v=<?= time() ?>" 
                     type="video/mp4"
                     preload="none">
                 </video>
-                <img src="/assets/stock/covers/0220(1).webp" alt="Seval Sırakaya Güzellik Salonu" loading="lazy">
-                <button class="main-btn" onclick="randevu('https://www.kolayrandevu.com/randevu3.php?hizmetler%5B%5D=28-1&kampanya=&kampanya_musteri=&referans=&sube=175867&website=1');"><span data-text="Randevu Al">Randevu Al</span></button>
+                <img src="/assets/stock/covers/0220(1).webp?v=<?= time() ?>" alt="Seval Sırakaya Güzellik Salonu" loading="lazy">
+                <a class="main-btn link-btn" href="https://www.kolayrandevu.com/randevu3.php?hizmetler%5B%5D=28-1&kampanya=&kampanya_musteri=&referans=&sube=175867&website=1"><span data-text="Randevu Al">Randevu Al</span></a>
             </div>
         </div>
     </section>
@@ -127,60 +126,60 @@
             <p></p>
         </div>
         <div class="focus-container focus-anim focus-img-container">
-            <div class="focus-img blur-load" style="background-image: url('/assets/stock/covers/0220(6).webp');" onclick="randevu('https://www.kolayrandevu.com/randevu3.php?hizmetler%5B%5D=24-1&kampanya=&kampanya_musteri=&kampanya_kabul=&referans=&website=1&sube=175867');">
+            <div class="focus-img blur-load" style="background-image: url('/assets/stock/covers/0220(6).webp?v=<?= time() ?>');" onclick="randevu('https://www.kolayrandevu.com/randevu3.php?hizmetler%5B%5D=24-1&kampanya=&kampanya_musteri=&kampanya_kabul=&referans=&website=1&sube=175867');">
                 <article><h2 data-text="Saç Kesimi">Saç Kesimi</h2></article>
                 <video class="responsive-video" autoplay muted loop>
-                    <source data-desktop="/assets/stock/desktop/0220(6).mp4" 
-                    data-mobile="/assets/stock/mobile/0220(6).mp4" 
+                    <source data-desktop="/assets/stock/desktop/0220(6).mp4?v=<?= time() ?>" 
+                    data-mobile="/assets/stock/mobile/0220(6).mp4?v=<?= time() ?>" 
                     type="video/mp4"
                     preload="none">
                 </video>
             </div>
-            <div class="focus-img blur-load" style="background-image: url('/assets/stock/covers/0220(2).webp');" onclick="randevu('https://www.kolayrandevu.com/randevu3.php?hizmetler%5B%5D=22-1&kampanya=&kampanya_musteri=&kampanya_kabul=&referans=&website=1&sube=175867');">
+            <div class="focus-img blur-load" style="background-image: url('/assets/stock/covers/0220(2).webp?v=<?= time() ?>');" onclick="randevu('https://www.kolayrandevu.com/randevu3.php?hizmetler%5B%5D=22-1&kampanya=&kampanya_musteri=&kampanya_kabul=&referans=&website=1&sube=175867');">
                 <article><h2 data-text="Fön">Fön</h2></article>
                 <video class="responsive-video" autoplay muted loop>
-                    <source data-desktop="/assets/stock/desktop/0220(2).mp4" 
-                    data-mobile="/assets/stock/mobile/0220(2).mp4" 
+                    <source data-desktop="/assets/stock/desktop/0220(2).mp4?v=<?= time() ?>" 
+                    data-mobile="/assets/stock/mobile/0220(2).mp4?v=<?= time() ?>" 
                     type="video/mp4"
                     preload="none">
                 </video>
             </div>
         </div>
         <div class="focus-container focus-anim focus-img-container">
-            <div class="focus-img blur-load" style="background-image: url('/assets/stock/covers/0220(3).webp');" onclick="randevu('https://www.kolayrandevu.com/randevu3.php?hizmetler%5B%5D=26-1&kampanya=&kampanya_musteri=&kampanya_kabul=&referans=&website=1&sube=175867');">
+            <div class="focus-img blur-load" style="background-image: url('/assets/stock/covers/0220(3).webp?v=<?= time() ?>');" onclick="randevu('https://www.kolayrandevu.com/randevu3.php?hizmetler%5B%5D=26-1&kampanya=&kampanya_musteri=&kampanya_kabul=&referans=&website=1&sube=175867');">
                 <article><h2 data-text="Saç Boyama">Saç Boyama</h2></article>
                 <video class="responsive-video" autoplay muted loop>
-                    <source data-desktop="/assets/stock/desktop/0220(3).mp4" 
-                    data-mobile="/assets/stock/mobile/0220(3).mp4" 
+                    <source data-desktop="/assets/stock/desktop/0220(3).mp4?v=<?= time() ?>" 
+                    data-mobile="/assets/stock/mobile/0220(3).mp4?v=<?= time() ?>" 
                     type="video/mp4"
                     preload="none">
                 </video>
             </div>
-            <div class="focus-img blur-load" style="background-image: url('/assets/stock/covers/0220(4).webp');" onclick="randevu('https://www.kolayrandevu.com/randevu3.php?hizmetler%5B%5D=33-1&kampanya=&kampanya_musteri=&kampanya_kabul=&referans=&website=1&sube=175867');">
+            <div class="focus-img blur-load" style="background-image: url('/assets/stock/covers/0220(4).webp?v=<?= time() ?>');" onclick="randevu('https://www.kolayrandevu.com/randevu3.php?hizmetler%5B%5D=33-1&kampanya=&kampanya_musteri=&kampanya_kabul=&referans=&website=1&sube=175867');">
                 <article><h2 data-text="Manikür">Manikür</h2></article>
                 <video class="responsive-video" autoplay muted loop>
-                    <source data-desktop="/assets/stock/desktop/0220(4).mp4" 
-                    data-mobile="/assets/stock/mobile/0220(4).mp4" 
+                    <source data-desktop="/assets/stock/desktop/0220(4).mp4?v=<?= time() ?>" 
+                    data-mobile="/assets/stock/mobile/0220(4).mp4?v=<?= time() ?>" 
                     type="video/mp4"
                     preload="none">
                 </video>
             </div>
         </div>
         <div class="focus-container focus-anim focus-img-container">
-            <div class="focus-img blur-load" style="background-image: url('/assets/stock/covers/0220(5).webp');" onclick="randevu('https://www.kolayrandevu.com/randevu3.php?hizmetler%5B%5D=35-1&kampanya=&kampanya_musteri=&kampanya_kabul=&referans=&website=1&sube=175867');">
+            <div class="focus-img blur-load" style="background-image: url('/assets/stock/covers/0220(5).webp?v=<?= time() ?>');" onclick="randevu('https://www.kolayrandevu.com/randevu3.php?hizmetler%5B%5D=35-1&kampanya=&kampanya_musteri=&kampanya_kabul=&referans=&website=1&sube=175867');">
                 <article><h2 data-text="Kaş Alma">Kaş Alma</h2></article>
                 <video class="responsive-video" autoplay muted loop>
-                    <source data-desktop="/assets/stock/desktop/0220(5).mp4" 
-                    data-mobile="/assets/stock/mobile/0220(5).mp4" 
+                    <source data-desktop="/assets/stock/desktop/0220(5).mp4?v=<?= time() ?>" 
+                    data-mobile="/assets/stock/mobile/0220(5).mp4?v=<?= time() ?>" 
                     type="video/mp4"
                     preload="none">
                 </video>
             </div>
-            <div class="focus-img blur-load" style="background-image: url('/assets/stock/covers/0220(7).webp');" onclick="randevu('https://www.kolayrandevu.com/randevu3.php?hizmetler%5B%5D=32-1&kampanya=&kampanya_musteri=&kampanya_kabul=&referans=&website=1&sube=175867');">
+            <div class="focus-img blur-load" style="background-image: url('/assets/stock/covers/0220(7).webp?v=<?= time() ?>');" onclick="randevu('https://www.kolayrandevu.com/randevu3.php?hizmetler%5B%5D=32-1&kampanya=&kampanya_musteri=&kampanya_kabul=&referans=&website=1&sube=175867');">
                 <article><h2 data-text="Saç Bakımı">Saç Bakımı</h2></article>
                 <video class="responsive-video" autoplay muted loop>
-                    <source data-desktop="/assets/stock/desktop/0220(7).mp4" 
-                    data-mobile="/assets/stock/mobile/0220(7).mp4" 
+                    <source data-desktop="/assets/stock/desktop/0220(7).mp4?v=<?= time() ?>" 
+                    data-mobile="/assets/stock/mobile/0220(7).mp4?v=<?= time() ?>" 
                     type="video/mp4"
                     preload="none">
                 </video>
@@ -228,7 +227,7 @@
                 </form>
             </div>
             <div class="focus-img blur-load openscale">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6021.623572655761!2d28.82810674261412!3d41.00749256462571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa50034db687b%3A0x4772ad68ca8ea38b!2sSeval%20Sirakaya%20Guzellik%20ve%20Sa%C3%A7%20Salonu!5e0!3m2!1str!2str!4v1739815385872!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe title="Seval Sırakaya Güzellik ve Saç Salonu Harita Konumu" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6021.623572655761!2d28.82810674261412!3d41.00749256462571!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa50034db687b%3A0x4772ad68ca8ea38b!2sSeval%20Sirakaya%20Guzellik%20ve%20Sa%C3%A7%20Salonu!5e0!3m2!1str!2str!4v1739815385872!5m2!1str!2str" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
         </div>
     </div>

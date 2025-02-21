@@ -100,7 +100,7 @@
     border-radius: 12px;
     box-shadow: 0 0 10px white;
 }
-.safety-img-container button {
+.safety-img-container .main-btn {
     position: absolute;
     bottom: 5px;
     left: 50%;

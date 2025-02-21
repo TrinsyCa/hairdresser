@@ -5,38 +5,6 @@
 ::-webkit-scrollbar {
     width: 0;
 }
-@font-face {
-    font-family: 'Manbow Solid';
-    src: url('/assets/fonts/manbow/Manbow\ Solid.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Manbow Tone';
-    src: url('/assets/fonts/manbow/Manbow\ Tone.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Manbow Spots';
-    src: url('/assets/fonts/manbow/Manbow\ Spots.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'Manbow Clear';
-    src: url('/assets/fonts/manbow/Manbow\ Clear.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
-}
-* {
-    font-family: "Quicksand", serif;
-    font-optical-sizing: auto;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: var(--dark);
-}
 *[font="solid"] {
     font-family: 'Manbow Solid', sans-serif;
 }
@@ -49,13 +17,22 @@
 *[font="clear"] {
     font-family: 'Manbow Clear', sans-serif;
 }
+* {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--dark);
+}
 html {
     scroll-behavior: smooth;
     overflow-x: hidden;
+    height: 100svh;
 }
 body {
     width: 100%;
-    min-height: 100svh;
+    min-height: 100%;
     background-color: white;
     overflow-x: hidden;
     position: relative;
@@ -741,6 +718,9 @@ footer {
 }
 .footer-signature .signature .creator:active {
     letter-spacing: 1px;
+}
+#map {
+    width: 100%;
 }
 
 /** Footer  */

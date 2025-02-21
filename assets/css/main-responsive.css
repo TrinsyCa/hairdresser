@@ -234,7 +234,7 @@
     .focus-container .focus-img article h2 {
         font-size: 6vw !important;
     }
-    .safety-img-container button {
+    .safety-img-container .main-btn {
         bottom: -8px !important;
         font-size: 5vw !important;
     }

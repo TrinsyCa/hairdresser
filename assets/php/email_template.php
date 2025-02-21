@@ -6,12 +6,12 @@
 ?>
 <html>
 <head>
-    <title>Yeni İletişim Formu Mesajı | Seval Sırakaya Güzellik Salonu ve Saç Salonu</title>
+    <title>Yeni İletişim Formu Mesajı | Seval Sırakaya Güzellik ve Saç Salonu</title>
 </head>
 <body style="color: #222; font-family: 'Quicksand', sans-serif; margin:0; padding:0;">
 
     <div class="messageBox" style="padding: 10px;">
-        <h1 style="color: #222; user-select: none;">Seval Sırakaya Güzellik Salonu ve Saç Salonu</h1>
+        <h1 style="color: #222; user-select: none;">Seval Sırakaya Güzellik ve Saç Salonu</h1>
         <p><strong><a href="<?php echo $DOMAIN; ?>" target="_blank" style="color:#7C5CFF; text-decoration:none;"><?php echo $DOMAIN; ?></a></strong></p>
         <br><br>
         <p style="color: #222; font-size:1.3rem; margin:1rem 0;"><strong>Adı Soyadı:</strong> <span style="user-select:all;"><?php echo $name; ?></span></p>
