@@ -1,0 +1,111 @@
+* {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+::selection {
+    background-color: #7C5CFF;
+}
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #16141C;
+}
+a {
+    color: #7C5CFF;
+    text-decoration: none;
+    user-select: none;
+}
+h1 {
+    user-select: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+p {
+    font-size: 1.3rem;
+    margin: 1rem 0;
+}
+span.select {
+    user-select: all;
+}
+.messageBox {
+    padding: 10px;
+}
+.trinsyca {
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+}
+.trinsyca a {
+    position: relative;
+    background-color: white;
+    text-decoration: none;
+    padding: 6px 10px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgb(0,0,0,0.9);
+    margin: 0 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+}
+.trinsyca a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(170deg, #966b2a, #dfb86b, #966b2a);
+    padding: 3px;
+    z-index: -1;
+    border-radius: 15px;
+}
+.trinsyca a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: linear-gradient(170deg, #966b2a, #dfb86b, #966b2a);
+    padding: 2px;
+    z-index: -2;
+    border-radius: 15px;
+    filter: blur(5px);
+    transition: padding 0.25s;
+}
+.trinsyca a:hover:after {
+    padding: 7px;
+}
+.trinsyca a span {
+    background: linear-gradient(170deg, #966b2a, #c4a25e, #966b2a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    transition: font-size 0.25s;
+}
+.trinsyca a:active span {
+    font-size: 1rem;
+}
+.trinsyca a span::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(125deg, #966b2a, #dfb86b, #966b2a);
+    z-index: -1;
+}

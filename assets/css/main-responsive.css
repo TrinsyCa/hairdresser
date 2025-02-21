@@ -1,0 +1,313 @@
+@media (max-width: 1335px) {
+    header .header-title h1 {
+        font-size: 2.5rem;
+    }
+    .navbar .menus {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100svw;
+        height: 100svh;
+        background-color: white;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 10px;
+        translate: 0 -100px;
+        opacity: 0;
+        pointer-events: none;
+        transition: 0.3s translate, 0.3s opacity;
+        z-index: 99990;
+    }
+    .navbar .menus.active .menuBars.closeMenu {
+        scale: 1;
+        opacity: 1;
+    }
+    .navbar .menus *,
+    .navbar .menus .social-media a svg path {
+        color: var(--dark);
+    }
+    .navbar .menus.active {
+        translate: 0;
+    }
+    .navbar .menus .url {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .navbar .menus .url a {
+        padding: 20px 30px;
+    }
+    .navbar .menuBars {
+        width: 60px;
+        height: 60px;
+    }
+    .navbar .menus.active {
+        pointer-events: all;
+        translate: 0 0;
+        opacity: 1;
+    }
+    .navbar .menus .url,
+    .navbar .menus .social-media {
+        scale: 1.5;
+    }
+    .section-container,
+    .header-details {
+        width: 90%;
+    }
+    .subTitle:not(#iletisim .subTitle, #hizmetler .subTitle, #hakkimizda .subTitle)  {
+        font-size: 1.5rem;
+        gap: 5px;
+    }
+    .focus-detail address {
+        font-size: 1rem !important;
+        margin-top: 0.5rem !important;
+        margin-bottom: 1rem !important;
+    }
+    .focus-detail .inputBx label {
+        font-size: 1rem !important;
+    }
+    .focus-detail .inputBx input,
+    .focus-detail .inputBx textarea {
+        font-size: 1rem !important;
+        padding: 6px 8px;
+    }
+    .faq-details p,
+    .focus-detail p {
+        font-size: 1rem !important;
+        margin: 1rem 0px !important;
+    }
+    .focus-detail ul {
+        padding: 0;
+    }
+    .focus-detail ul li {
+        font-size: 1.05rem !important;
+    }
+    #faq-obj {
+        font-size: 2.5rem !important;
+    }
+    .focus-container .focus-img article {
+        opacity: 1 !important;
+    }
+    .focus-container .focus-img article h2,
+    .focus-container .focus-img article h2::before {
+        font-size: 1.5rem !important;
+    }
+    .faq,
+    .focus {
+        padding: 2rem 0 !important;
+    }
+    .fixed-contact {
+        bottom: 10px;
+        right: 10px;
+    }
+    .fixed-contactContainer {
+        gap: 10px !important;
+    }
+    .fixed-contactBtn {
+        padding: 8px !important;
+    }
+    .fixed-contactBtn svg {
+        width: 35px !important;
+        height: 35px !important;
+    }
+    .fixed-contactDetails {
+        display: none !important;
+    }
+    #hizmetler {
+        scroll-margin-top: 80px !important;
+    }
+    #hakkimizda {
+        scroll-margin-top: 80px !important;
+    }
+    #iletisim {
+        scroll-margin-top: 70px !important;
+    }
+}
+@media (max-width: 950px) {
+    .footer-bottom {
+        display: block;
+    }
+}
+@media (max-width: 768px) {
+    .subTitle:not(#iletisim .subTitle, .subTitle.center)  {
+        font-size: 1.5rem;
+        gap: 5px;
+    }
+    #iletisim .subTitle {
+        font-size: 2rem;
+    }
+    .subTitle svg {
+        width: 30px;
+        height: 30px;
+    }
+    .focus-container.focus-anim-r:not(#hizmetler .focus-container, #iletisim .focus-container),
+    .faq {
+        flex-direction: column;
+    }
+    #iletisim .focus-container,
+    .focus-container.focus-anim:not(#hizmetler .focus-container.focus-anim) {
+        flex-direction: column-reverse !important;
+    }
+    .focus-img,
+    .focus-container.half-side .focus-detail,
+    .faq-container,
+    #faq-obj {
+        width: 100% !important;
+    }
+    #faq-obj {
+        display: none !important;
+    }
+    .focus-img {
+        border-radius: 12px;
+    }
+    .focus-img img,
+    .focus-img video {
+        aspect-ratio: 5 / 3 !important;
+    }
+    .focus-img iframe {
+        height: 200px !important;
+    }
+    .focus-anim.focus-img-container {
+        margin-top: 1rem !important;
+        gap: 15px !important;
+    }
+    #hizmetler .focus-anim.focus-img-container .focus-img {
+        aspect-ratio: 1 / 1 !important;
+    }
+    header .header-title h1 {
+        font-size: 5vw;
+    }
+    header .header-title h2 {
+        font-size: 2.82vw;
+    }
+    .footer-policy {
+        padding-top: 1rem;
+    }
+    .safety-container {
+        flex-direction: column;
+        gap: 0 !important;
+    }
+    .safety-container .side {
+        width: 100% !important;
+    }
+}
+@media (max-width: 425px) {
+    .subTitle.center {
+        font-size: 10vw !important;
+    }
+    .footer-menu-list {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .footer-top {
+        padding: 0.5rem 0 !important;
+    }
+    .footer-bottom {
+        padding-top: 0 !important;
+    }
+    .footer-menu {
+        width: 100%;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+    }
+    .footer-menu b {
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-social,
+    .footer-link {
+        justify-content: center;
+        text-align: center;
+    }
+    .footer-copyright p {
+        align-items: start !important;
+    }
+    .footer-copyright svg {
+        width: 30px;
+        height: 25px;
+    }
+    .focus-container .focus-img article h2 {
+        font-size: 6vw !important;
+    }
+    .safety-img-container button {
+        bottom: -8px !important;
+        font-size: 5vw !important;
+    }
+    .header-details {
+        bottom: 15% !important;
+    }
+    .subTitle:not(#iletisim .subTitle, .subTitle.center) {
+        font-size: 5.5vw;
+    }
+}
+@media (max-width: 375px) {
+    .navbar .logo h1 span {
+        font-size: 5.5vw !important;
+    }
+    .navbar .logo h1 span:last-child {
+        font-size: 4.9vw !important;
+    }
+    .navbar .menuBars {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    .navbar svg {
+        width: 30px;
+        height: 30px;
+    }
+    .focus-anim.focus-img-container {
+        margin-top: 0.7rem !important;
+        gap: 10px !important;
+    }
+}
+@media (max-width: 320px) {
+    footer .logo h1 span {
+        font-size: 7vw !important;
+    }
+    footer .logo h1 span:last-child {
+        font-size: 6.3vw !important;
+    }
+    .footer-link,
+    .footer-copyright {
+        font-size: 5.5vw;
+    }
+    .footer-copyright svg {
+        width: 11vw;
+        height: 9vw;
+    }
+    .main-btn.dark,
+    .link-btn {
+        font-size: 5.5vw !important;
+    }
+    .faq-details p,
+    .focus-detail p {
+        font-size: 4vw !important;
+    }
+    .safety-container p,
+    .focus-detail ul li {
+        font-size: 4.5vw !important;
+        margin-bottom: 0 !important;
+    }
+    #iletisim .subTitle {
+        font-size: 10vw !important;
+    }
+    .subTitle svg {
+        width: 10vw !important;
+        height: 10vw !important;
+    }
+    .navbar .menus .url,
+    .navbar .menus .social-media {
+        scale: 1.2;
+    }
+}
+@media (max-width: 285px) {
+    .footer-signature {
+        justify-content: start !important;
+        padding: 1.5rem 0;
+    }
+}

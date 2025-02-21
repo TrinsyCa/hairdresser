@@ -1,0 +1,119 @@
+:root {
+    --detailGroupBoxBg: #b6b6b6;
+    --detailGroupBoxBgHover: #bdbdbd;
+}
+.detailGroup {
+    padding: 5.6svh 0;
+}
+.detailGroup-container {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+.detailGroupBox {
+    background-color: var(--detailGroupBoxBg);
+    border-radius: 20px;
+    padding: 30px;
+    transition: 0.3s background-color;
+    animation: fadein 1s forwards;
+    scale: .8;
+    width: 50%;
+    min-height: 100%;
+}
+.detailGroupBox:hover {
+    background-color: var(--detailGroupBoxBgHover);
+}
+.detailGroupTop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    padding-bottom: 1rem;
+}
+.detailGroupTitle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.35rem;
+    font-weight: 100;
+    user-select: none;
+    pointer-events: none;
+    color: var(--dark);
+}
+.detailGroupTitle svg {
+    width: 32px;
+    height: 32px;
+    color: var(--dark);
+}
+.detailGroupParagraph {
+    font-size: 1.15rem;
+    font-weight: 100;
+    color: var(--dark);
+
+    height: 100%;
+    padding-bottom: 3.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.detailGroupParagraph h3 {
+    margin: 1rem 0;
+}
+.detailGroupParagraph li {
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+}
+.detailGroupParagraph li::before {
+  content: "";
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: var(--dark);
+  margin-right: .5rem;
+}
+.detailGroupImages {
+    display: flex;
+    align-items: start;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 870px) {
+    .detailGroup-container {
+        flex-direction: column;
+    }
+    .detailGroupBox {
+        width: 100% !important;
+    }
+    .detailGroupParagraph {
+        display: block !important;
+        padding-bottom: 0 !important;
+    }
+    .detailGroupParagraph>div {
+        margin-bottom: 3rem;
+    }
+}
+@media (max-width: 425px) {
+    .detailGroupBox {
+        padding: 15px !important;
+    }
+    .detailGroupTitle {
+        gap: 5px;
+    }
+    .detailGroupTitle h1 {
+        font-size: 7vw !important;
+    }
+    .detailGroupTitle svg {
+        width: 7vw !important;
+        height: 7vw !important;
+    }
+    .detailGroupParagraph h3 {
+        font-size: 5.5vw;
+    }
+    .detailGroupBox p {
+        font-size: 4.5vw;
+    }
+}
