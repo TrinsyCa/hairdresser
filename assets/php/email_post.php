@@ -34,16 +34,16 @@
             try {
                 // SMTP Ayarları
                 $mail->isSMTP();
-                $mail->Host = 'smtp.hostinger.com';
+                $mail->Host = $EMAIL_HOST;
                 $mail->SMTPAuth = true;
-                $mail->Username = 'noreply@trinsyca.com';
-                $mail->Password = 'Uw0^4hFYagwzRfB$kg*Ec*AHUy^^$hBssVUPV5j45d^fsc8MvP';
+                $mail->Username = $EMAIL_FROM;
+                $mail->Password = $EMAIL_PASS;
                 $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
                 $mail->Port = 465;
 
                 // E-posta Bilgileri
-                $mail->setFrom('noreply@trinsyca.com', 'TrinsyCa');
-                $mail->addAddress('trinsyca@gmail.com');
+                $mail->setFrom($EMAIL_FROM, $EMAIL_NAME);
+                $mail->addAddress($EMAIL_TO);
 
                 // İçerik
                 $mail->CharSet = 'UTF-8';

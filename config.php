@@ -1,8 +1,14 @@
 <?php
-    $DOMAIN = "https://sevalsirakaya.trinsyca.com/";
+    $DOMAIN = "https://sevalsirakaya.com/";
     $PATH = "/sevalguzellik"; // Localde klasör ismi
     $PUBLIC_HTML = "/sevalsirakaya"; // Hostta klasör ismi, eğer sitenin ana dizininde ise boş bırak
-    $EMAIL = "noreply@trinsyca.com";
+
+    $EMAIL_HOST = 'smtp.google.com';
+    $EMAIL_FROM = 'noreply@email.com';
+    $EMAIL_TO = 'email@email.com';
+    $EMAIL_PASS = 'email_pass';
+    $EMAIL_NAME = 'Seval Sırakaya Güzellik ve Saç Salonu';
+
 
     if ($_SERVER['HTTP_HOST'] === 'localhost') { 
         define('BASE_PATH', dirname(__DIR__) . $PATH);
