@@ -38,13 +38,7 @@
             </div>
         </div>
         <div class="header-media">
-            <video id="welcome-video" class="responsive-video" autoplay loop muted>
-                <source data-desktop="/assets/stock/welcome-video/1080p.mp4?v=<?= time() ?>" 
-                data-mobile="/assets/stock/welcome-video/480p.mp4?v=<?= time() ?>" 
-                type="video/mp4"
-                preload="auto">
-            </video>
-            <img src="/assets/stock/welcome-video/cover.webp?v=<?= time() ?>" alt="Seval Sırakaya Güzellik Salonu" loading="eager">
+            <img src="/assets/files/seval-seda.jpg?v=<?= time() ?>" alt="Seval Sırakaya Güzellik Salonu" loading="eager">
         </div>
     </header>
     <div class="focus section-container">
@@ -231,7 +225,7 @@
             </div>
         </div>
     </div>
-    <?php include_once "assets/layouts/faq.html"; ?>
+    <?php include_once "assets/layouts/faq.php"; ?>
     <?php include_once "assets/layouts/footer.php"; ?>
 </body>
 </html>
