@@ -38,7 +38,7 @@
             </div>
         </div>
         <div class="header-media">
-            <img src="/assets/files/seval-seda.jpg?v=<?= time() ?>" alt="Seval Sırakaya Güzellik Salonu" loading="eager">
+            <img src="/assets/files/seval-seda.webp?v=<?= time() ?>" alt="Seval Sırakaya Güzellik Salonu" loading="eager">
         </div>
     </header>
     <div class="focus section-container">
