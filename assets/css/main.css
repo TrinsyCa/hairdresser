@@ -5,6 +5,10 @@
 ::-webkit-scrollbar {
     width: 0;
 }
+::selection {
+    background-color: var(--speacial-clr);
+    color: white;
+}
 *[font="solid"] {
     font-family: 'Manbow Solid', sans-serif;
 }
